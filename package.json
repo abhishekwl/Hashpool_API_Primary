@@ -1,0 +1,27 @@
+{
+  "name": "hashpool_api_primary",
+  "version": "1.0.0",
+  "description": "Hashpool's primary API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekwl/Hashpool_API_Primary.git"
+  },
+  "author": "abhishekwl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekwl/Hashpool_API_Primary/issues"
+  },
+  "homepage": "https://github.com/abhishekwl/Hashpool_API_Primary#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1"
+  }
+}
