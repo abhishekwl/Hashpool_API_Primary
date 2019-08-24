@@ -26,6 +26,9 @@ module.exports.setupDatabase = function() {
             console.log('[!DB] Exiting');
             process.exit();
         }
-        else return connection;
+        else {
+            console.log('[DB] Database connection success');
+            return connection;
+        }
     });
 };
